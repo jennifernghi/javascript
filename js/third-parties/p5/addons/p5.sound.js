@@ -212,7 +212,7 @@ sndcore = function () {
   /**
    * <p>Returns the Audio Context for this sketch. Useful for users
    * who would like to dig deeper into the <a target='_blank' href=
-   * 'http://webaudio.github.io/web-audio-api/'>Web Audio API
+   ../../../p5/addons/* 'http://webaudio.github.io/web-audio-api/'>Web Audio API
    * </a>.</p>
    *
    * @method getAudioContext
@@ -2724,7 +2724,7 @@ fft = function () {
   };
   /**
    *  Returns the amount of energy (volume) at a specific
-   *  <a href="en.wikipedia.org/wiki/Audio_frequency" target="_blank">
+   *  <a href="../../../p5/addons/en.wikipedia.org/wiki/Audio_frequency" target="_blank">
    *  frequency</a>, or the average amount of energy between two
    *  frequencies. Accepts Number(s) corresponding
    *  to frequency (in Hz), or a String corresponding to predefined
@@ -4281,7 +4281,7 @@ signal = function () {
    *  want to add a value to each of those samples, we can't do it in the
    *  draw loop, but we can do it by adding a constant-rate audio signal.</p.
    *
-   *  <p>This class mostly functions behind the scenes in p5.sound, and returns
+   *  ><p>This class mostly functions behind the scenes in p5.sound, and returns
    *  a Tone.Signal from the Tone.js library by Yotam Mann.
    *  If you want to work directly with audio signals for modular
    *  synthesis, check out
@@ -7697,11 +7697,11 @@ effect = function () {
   * common and useful for current and future effects.
   *
   *
-  * This class is extended by <a href="reference/#/p5.Distortion">p5.Distortion</a>, 
-  * <a href="reference/#/p5.Compressor">p5.Compressor</a>,
-  * <a href="reference/#/p5.Delay">p5.Delay</a>, 
-  * <a href="reference/#/p5.Filter">p5.Filter</a>, 
-  * <a href="reference/#/p5.Reverb">p5.Reverb</a>.
+  * This class is extended by <a href="../../../p5/addons/reference/#/p5.Distortion">p5.Distortion</a>, 
+  * <a href="../../../p5/addons/reference/#/p5.Compressor">p5.Compressor</a>,
+  * <a href="../../../p5/addons/reference/#/p5.Delay">p5.Delay</a>, 
+  * <a href="../../../p5/addons/reference/#/p5.Filter">p5.Filter</a>, 
+  * <a href="../../../p5/addons/reference/#/p5.Reverb">p5.Reverb</a>.
   *
   * @class  p5.Effect
   * @constructor

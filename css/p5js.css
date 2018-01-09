@@ -1,0 +1,18 @@
+#main{
+	width: 75%;
+	height: 100%;
+}
+
+#menu{
+	background: #FFFFFF;
+	width: 25%;
+	height: 100%;
+}
+
+body{
+	display: flex;
+}
+
+li {
+	list-style: none;
+}
